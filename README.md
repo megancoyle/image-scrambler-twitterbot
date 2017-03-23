@@ -16,3 +16,13 @@ consumer_secret = 'YOUR-CONSUMER-SECRET'
 access_token = 'YOUR-ACCESS-TOKEN'
 access_secret = 'YOUR-ACCESS-SECRET'
 ```
+Set up your environment in the terminal with:
+```
+virtualenv ENV
+source bin/activate
+```
+Then install the following:
+```
+pip install tweepy
+pip install Pillow
+```
